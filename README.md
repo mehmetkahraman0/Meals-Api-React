@@ -4,5 +4,5 @@
 
 
 TheMealApi used 
--(TheMealApi used https://www.themealdb.com/api.php)
+https://www.themealdb.com/api.php
 
