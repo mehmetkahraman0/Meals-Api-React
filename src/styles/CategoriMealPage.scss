@@ -1,0 +1,101 @@
+.categories-container {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+
+    .slider {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .route {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #EED3B1;
+            letter-spacing: 1px;
+            font-weight: 900;
+
+            :hover {
+                color: #47663B;
+                transition: all linear 0.25s;
+            }
+
+            .icon {
+                font-size: 35px;
+            }
+        }
+
+    }
+
+    .cate {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+
+        .name {
+            font-size: 40px;
+            letter-spacing: 3px;
+            font-weight: 900;
+            text-shadow: 4px 4px 10px #47663B;
+            font-family: "Oswald", sans-serif;
+            
+        }
+
+        .category-meals {
+            margin-top: 15px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            row-gap: 50px;
+            justify-content: space-between;
+            align-items: center;
+            
+
+            .category-meal {
+                padding: 5px;
+                border: 3px solid #EED3B1;
+                background-color: #47663B;
+                img {
+                    height: auto;
+                    width: 320px;
+                    border: 2px solid #EED3B1;
+                    border-bottom: none;
+                    padding: 4px;
+                }
+
+                .text {
+                    margin-top: 10px;
+                    width: 320px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    flex-direction: row;
+                    border: 2px solid #EED3B1;
+                    border-top: none;
+
+                    p {
+                        font-weight: 600;
+                    }
+
+                    .route {
+                        text-decoration: none;
+                        color: black;
+
+                        :hover {
+                            color: red;
+                            transition: all linear 0.2s;
+                        }
+
+                        .icon {
+                            font-size: 30px;
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+}

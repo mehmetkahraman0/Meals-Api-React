@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=M+PLUS+Rounded+1c&family=Oswald:wght@200..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #E8ECD7;
+  border-color: #EED3B1;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+body {
+  background-color: #1F4529;
+}

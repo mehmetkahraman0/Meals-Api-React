@@ -1,0 +1,131 @@
+.homepage-container {
+    margin-top: 40px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .top-bar {
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 40px;
+
+        .search-bar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+            button {
+                background-color: transparent;
+                border: none;
+                font-size: 60px;
+            }
+
+            input {
+                height: 30px;
+                width: 350px;
+                border: none;
+                border-bottom: 1px solid #EED3B1;
+                background-color: transparent;
+
+                &::placeholder {
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    opacity: 0.8;
+                    color: #E8ECD7;
+                }
+
+                &:focus {
+                    outline: none;
+                    border-top: 1px solid #EED3B1;
+                }
+            }
+        }
+    }
+
+    .show-meals {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-around;
+        align-items: center;
+        row-gap: 40px;
+
+        .meal {
+            border: 2px solid #EED3B1;
+            border-radius: 5px;
+            padding: 5px;
+            background-color: #47663B;
+
+            img {
+                padding: 4px;
+                height: 300px;
+                width: auto;
+                border: 2px solid #EED3B1;
+                border-bottom: none;
+                border-radius: 5px 5px 0 0;
+            }
+
+            .text-item {
+                margin-top: 10px;
+                padding: 5px 10px 5px 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                border: 2px solid #EED3B1;
+                border-top: none;
+                border-radius: 0 0 5px 5px;
+
+                .name {
+                    font-size: 20px;
+                    letter-spacing: 1px;
+                    font-weight: 600;
+
+                }
+
+                .category {
+                    font-size: 14px;
+                    letter-spacing: 0.5px;
+                    font-weight: 400;
+                }
+            }
+
+
+
+            .country {
+                font-size: 18px;
+                letter-spacing: 0.5px;
+                font-weight: 400;
+            }
+
+            .route{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                margin-top: -10px;
+                p{
+                    font-size: 12px;
+                    color: brown;
+                }
+            }
+
+            .icon {
+                font-size: 35px;
+                color: #EED3B1;
+
+                :hover {
+                    transition: all linear 0.3s;
+                    color: red;
+                }
+            }
+        }
+
+    }
+}
